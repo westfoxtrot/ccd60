@@ -1,0 +1,99 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,"Unpolarized capacitor, small symbol",C_Small,C7 C8 C9,100nf,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,3,~
+2,"Unpolarized capacitor, small symbol",C_Small,C4,10nf,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+3,"Unpolarized capacitor, small symbol",C_Small,C3,10uf,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+4,"Unpolarized capacitor, small symbol",C_Small,C5 C6,4.7uf,C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~
+5,"Diode, small symbol",D_Small,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D42 D43 D44 D45 D46 D47 D48 D49 D50 D51 D52 D53 D54 D55 D56 D57 D58 D59 D60 D61 D62 D63 D64,,D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,63,~
+6,"Diode, small symbol",D_Small,DR1,1N4148,D_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+7,"Resettable fuse, polymeric positive temperature coefficient, small symbol",Polyfuse_Small,F1,500ma,Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+8,Single Pole Single Throw (SPST) switch,SW_SPST,MX_40,"'""",MXOnly-1U-NoLED,1,
+9,Single Pole Single Throw (SPST) switch,SW_SPST,MX_52,",<",MXOnly-1U-NoLED,1,
+10,Single Pole Single Throw (SPST) switch,SW_SPST,MX_12,-_,MXOnly-1U-NoLED,1,
+11,Single Pole Single Throw (SPST) switch,SW_SPST,MX_53,.>,MXOnly-1U-NoLED,1,
+12,Single Pole Single Throw (SPST) switch,SW_SPST,MX_54,/?,MXOnly-1U-NoLED,1,
+13,Single Pole Single Throw (SPST) switch,SW_SPST,MX_11,0,MXOnly-1U-NoLED,1,
+14,Single Pole Single Throw (SPST) switch,SW_SPST,MX_2,1,MXOnly-1U-NoLED,1,
+15,Single Pole Single Throw (SPST) switch,SW_SPST,MX_55,1.75 SHIFT,MXOnly-1.75U-NoLED,1,
+16,Single Pole Single Throw (SPST) switch,SW_SPST,MX_3,2,MXOnly-1U-NoLED,1,
+17,Single Pole Single Throw (SPST) switch,SW_SPST,MX_55_1,2.75 SHIFT,MXOnly-2.75U-NoLED,1,
+18,Single Pole Single Throw (SPST) switch,SW_SPST,MX_4,3,MXOnly-1U-NoLED,1,
+19,Single Pole Single Throw (SPST) switch,SW_SPST,MX_5,4,MXOnly-1U-NoLED,1,
+20,Single Pole Single Throw (SPST) switch,SW_SPST,MX_6,5,MXOnly-1U-NoLED,1,
+21,Single Pole Single Throw (SPST) switch,SW_SPST,MX_7,6,MXOnly-1U-NoLED,1,
+22,Single Pole Single Throw (SPST) switch,SW_SPST,MX_8,7,MXOnly-1U-NoLED,1,
+23,Single Pole Single Throw (SPST) switch,SW_SPST,MX_9,8,MXOnly-1U-NoLED,1,
+24,Single Pole Single Throw (SPST) switch,SW_SPST,MX_10,9,MXOnly-1U-NoLED,1,
+25,Single Pole Single Throw (SPST) switch,SW_SPST,MX_39,;:,MXOnly-1U-NoLED,1,
+26,Single Pole Single Throw (SPST) switch,SW_SPST,MX_13,=+,MXOnly-1U-NoLED,1,
+27,Single Pole Single Throw (SPST) switch,SW_SPST,MX_30,A,MXOnly-1U-NoLED,1,
+28,Single Pole Single Throw (SPST) switch,SW_SPST,MX_49,B,MXOnly-1U-NoLED,1,
+29,Single Pole Single Throw (SPST) switch,SW_SPST,MX_14,Backspace,MXOnly-2U-NoLED,1,
+30,Single Pole Single Throw (SPST) switch,SW_SPST,MX_47,C,MXOnly-1U-NoLED,1,
+31,Single Pole Single Throw (SPST) switch,SW_SPST,MX_29,CAPS,MXOnly-1.75U-NoLED,1,
+32,Single Pole Single Throw (SPST) switch,SW_SPST,MX_32,D,MXOnly-1U-NoLED,1,
+33,Single Pole Single Throw (SPST) switch,SW_SPST,MX_18,E,MXOnly-1U-NoLED,1,
+34,Single Pole Single Throw (SPST) switch,SW_SPST,MX_42,ENTER,MXOnly-2.25U-NoLED,1,
+35,Single Pole Single Throw (SPST) switch,SW_SPST,MX_1,ESC,MXOnly-1U-NoLED,1,
+36,Single Pole Single Throw (SPST) switch,SW_SPST,MX_33,F,MXOnly-1U-NoLED,1,
+37,Single Pole Single Throw (SPST) switch,SW_SPST,MX_56,FN,MXOnly-1U-NoLED,1,
+38,Single Pole Single Throw (SPST) switch,SW_SPST,MX_43_1,FULL_LEFT_SHIFT,MXOnly-2.25U-NoLED,1,
+39,Single Pole Single Throw (SPST) switch,SW_SPST,MX_34,G,MXOnly-1U-NoLED,1,
+40,Single Pole Single Throw (SPST) switch,SW_SPST,MX_35,H,MXOnly-1U-NoLED,1,
+41,Single Pole Single Throw (SPST) switch,SW_SPST,MX_64,HHKB_\|,MXOnly-1U-NoLED,1,
+42,Single Pole Single Throw (SPST) switch,SW_SPST,MX_23,I,MXOnly-1U-NoLED,1,
+43,Single Pole Single Throw (SPST) switch,SW_SPST,MX_44,ISO_BS,MXOnly-1U-NoLED,1,
+44,Single Pole Single Throw (SPST) switch,SW_SPST,MX_36,J,MXOnly-1U-NoLED,1,
+45,Single Pole Single Throw (SPST) switch,SW_SPST,MX_37,K,MXOnly-1U-NoLED,1,
+46,Single Pole Single Throw (SPST) switch,SW_SPST,MX_38,L,MXOnly-1U-NoLED,1,
+47,Single Pole Single Throw (SPST) switch,SW_SPST,MX_59,LEFT_ALT,MXOnly-1.5U-NoLED,1,
+48,Single Pole Single Throw (SPST) switch,SW_SPST,MX_57,LEFT_CTRL,MXOnly-1.5U-NoLED,1,
+49,Single Pole Single Throw (SPST) switch,SW_SPST,MX_58,LEFT_GUI,MXOnly-1U-NoLED,1,
+50,Single Pole Single Throw (SPST) switch,SW_SPST,MX_43,LEFT_SHIFT,MXOnly-1.25U-NoLED,1,
+51,Single Pole Single Throw (SPST) switch,SW_SPST,MX_51,M,MXOnly-1U-NoLED,1,
+52,Single Pole Single Throw (SPST) switch,SW_SPST,MX_50,N,MXOnly-1U-NoLED,1,
+53,Single Pole Single Throw (SPST) switch,SW_SPST,MX_24,O,MXOnly-1U-NoLED,1,
+54,Single Pole Single Throw (SPST) switch,SW_SPST,MX_25,P,MXOnly-1U-NoLED,1,
+55,Single Pole Single Throw (SPST) switch,SW_SPST,MX_16,Q,MXOnly-1U-NoLED,1,
+56,Single Pole Single Throw (SPST) switch,SW_SPST,MX_19,R,MXOnly-1U-NoLED,1,
+57,Single Pole Single Throw (SPST) switch,SW_SPST,MX_61,RIGHT_ALT,MXOnly-1.5U-NoLED,1,
+58,Single Pole Single Throw (SPST) switch,SW_SPST,MX_63,RIGHT_CTRL,MXOnly-1.5U-NoLED,1,
+59,Single Pole Single Throw (SPST) switch,SW_SPST,MX_62,RIGHT_GUI,MXOnly-1U-NoLED,1,
+60,Single Pole Single Throw (SPST) switch,SW_SPST,MX_31,S,MXOnly-1U-NoLED,1,
+61,Single Pole Single Throw (SPST) switch,SW_SPST,MX_60,SPACEBAR,MXOnly-7U-ReversedStabilizers-NoLED,1,
+62,Single Pole Single Throw (SPST) switch,SW_SPST,MX_29_1,STEPPED_CAPS,MXOnly-1.25U-NoLED,1,
+63,Single Pole Single Throw (SPST) switch,SW_SPST,MX_20,T,MXOnly-1U-NoLED,1,
+64,Single Pole Single Throw (SPST) switch,SW_SPST,MX_15,TAB,MXOnly-1.5U-NoLED,1,
+65,Single Pole Single Throw (SPST) switch,SW_SPST,MX_22,U,MXOnly-1U-NoLED,1,
+66,Single Pole Single Throw (SPST) switch,SW_SPST,MX_48,V,MXOnly-1U-NoLED,1,
+67,Single Pole Single Throw (SPST) switch,SW_SPST,MX_17,W,MXOnly-1U-NoLED,1,
+68,Single Pole Single Throw (SPST) switch,SW_SPST,MX_46,X,MXOnly-1U-NoLED,1,
+69,Single Pole Single Throw (SPST) switch,SW_SPST,MX_21,Y,MXOnly-1U-NoLED,1,
+70,Single Pole Single Throw (SPST) switch,SW_SPST,MX_45,Z,MXOnly-1U-NoLED,1,
+71,Single Pole Single Throw (SPST) switch,SW_SPST,MX_26,[{,MXOnly-1U-NoLED,1,
+72,Single Pole Single Throw (SPST) switch,SW_SPST,MX_28,\|,MXOnly-1.5U-NoLED,1,
+73,Single Pole Single Throw (SPST) switch,SW_SPST,MX_27,]},MXOnly-1U-NoLED,1,
+74,Single Pole Single Throw (SPST) switch,SW_SPST,MX_14_1,`~,MXOnly-1U-NoLED,1,
+75,"NPN transistor, base/collector/emitter",Q_NPN_BCE,Q1,Q_NPN_BCE,TSOT-23,1,~
+76,"Resistor, small symbol",R_Small,R1,1.5k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+77,"Resistor, small symbol",R_Small,R2,30k,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,1,~
+78,"Resistor, small symbol",R_Small,R6 R7,5k1,R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,2,~
+79,"Push button switch, generic, two pins",SW_Push,SW1,,SKSVCAE010,1,
+80,"150mA Low Dropout Voltage Regulator, Fixed Output 3.3V, TSOT-23-5",LD3985G33R_TSOT23,U2,LD3985G33R_TSOT23,SOT-23-5,1,http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00003395.pdf
+81,,PRTR5V0U2X,U3,PRTR5V0U2X,SOT143B,1,
+82,"ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48",STM32F072CBTx,U1,STM32F072CBTx,LQFP-48_7x7mm_P0.5mm,1,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf
+83,,HRO-TYPE-C-31-M-12,USB1,HRO-TYPE-C-31-M-12,HRO-TYPE-C-31-M-12-HandSoldering,1,
+
+
+
+
+
+Component Groups:,83
+Component Count:,149
+Fitted Components:,149
+Number of PCBs:,1
+Total components:,149
+Schematic Version:,
+Schematic Date:,
+BoM Date:,05/12/19 13:25:12
+Schematic Source:,C:\Users\west1\Documents\keyboard design\pcbs\prophet_pcb\prophet.sch
+KiCad Version:,Eeschema (5.1.0)-1

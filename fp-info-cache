@@ -1,0 +1,232 @@
+51143288273494
+Transformer_SMD
+Pulse_P0926NL
+SMT Gate Drive Transformer, 1:1:1, 8.0x6.3x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa0926nl
+0
+6
+6
+Transformer_SMD
+Pulse_PA1323NL
+SMT Gate Drive Transformer, 1:1, 9.5x7.1x5.3mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa1323nl
+0
+6
+6
+Transformer_SMD
+Pulse_PA2001NL
+SMT Gate Drive Transformer, 1:1, 8.6x6.7x2.5mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2001nl pe-68386nl
+0
+4
+4
+Transformer_SMD
+Pulse_PA2002NL-PA2008NL-PA2009NL
+SMT Gate Drive Transformer, 1:1:1 or 2:1:1 or 2.5:1:1 or 1:1, 9.0x8.6x7.6mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2002nl pa2008nl pa2009nl p0544nl pa0184nl pa0297nl pa0510nl
+0
+6
+6
+Transformer_SMD
+Pulse_PA2004NL
+SMT Gate Drive Transformer, 1:1:1, 8.6x6.7x3.6mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2004nl pa0264nl
+0
+6
+6
+Transformer_SMD
+Pulse_PA2005NL
+SMT Gate Drive Transformer, 1:1:1, 11.8x8.8x4.0mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2005nl pa0173nl
+0
+6
+6
+Transformer_SMD
+Pulse_PA2006NL
+SMT Gate Drive Transformer, 1:1, 11.8x8.8x4.0mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2006nl pa0186nl
+0
+4
+4
+Transformer_SMD
+Pulse_PA2007NL
+SMT Gate Drive Transformer, 1:1, 9.0x8.6x7.6mm (https://productfinder.pulseeng.com/products/datasheets/P663.pdf)
+pulse pa2007nl
+0
+4
+4
+Transformer_SMD
+Pulse_PA2777NL
+SMT Gate Drive Transformer, 1:1, 7.1x6.1x5.5mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa2777nl
+0
+8
+8
+Transformer_SMD
+Pulse_PA3493NL
+SMT Gate Drive Transformer, 1.25:1, 10.9x9.7x2.7mm (https://productfinder.pulseeng.com/products/datasheets/SPM2007_61.pdf)
+pulse pa3493nl
+0
+4
+4
+Transformer_SMD
+Transformer_Coilcraft_CST1
+Current sense transformer, SMD, 8.0x8.13x5.3mm (https://www.coilcraft.com/pdfs/cst.pdf)
+Transformer current sense SMD
+0
+8
+8
+Transformer_SMD
+Transformer_Coilcraft_CST2
+Current sense transformer, SMD, 8.0x8.13x5.3mm (https://www.coilcraft.com/pdfs/cst.pdf)
+Transformer current sense SMD
+0
+8
+8
+Transformer_SMD
+Transformer_Coilcraft_CST2010
+Current sense transformer, SMD, 14.55x19.91x10.50mm (https://www.coilcraft.com/pdfs/cst2010.pdf)
+Transformer current sense SMD
+0
+12
+12
+Transformer_SMD
+Transformer_CurrentSense_8.4x7.2mm
+Transformer current sense SMD 8.4x7.2mm
+Transformer current sense SMD
+0
+8
+8
+Transformer_SMD
+Transformer_Ethernet_Bel_S558-5999-T7-F
+Ethernet Transformer, Bel S558-5999-T7-F, https://www.belfuse.com/resources/ICMs/lan-/S558-5999-T7-F.pdf
+Ethernet Transformer
+0
+16
+16
+Transformer_SMD
+Transformer_Ethernet_Bourns_PT61017PEL
+https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
+Transformer Ethernet Single Center-Tap
+0
+16
+16
+Transformer_SMD
+Transformer_Ethernet_HALO_TG111-MSC13
+Transformer Ethernet SMD, https://www.haloelectronics.com/pdf/discrete-genesus.pdf
+Transformer Ethernet SMD
+0
+24
+24
+Transformer_SMD
+Transformer_MACOM_SM-22
+https://cdn.macom.com/datasheets/ETC1-1-13.pdf
+RF Transformer
+0
+5
+5
+Transformer_SMD
+Transformer_Mini-Circuits_CD541_H2.08mm
+https://ww2.minicircuits.com/case_style/CD541.pdf
+RF Transformer
+0
+6
+6
+Transformer_SMD
+Transformer_Mini-Circuits_CD542_H2.84mm
+https://ww2.minicircuits.com/case_style/CD542.pdf
+RF Transformer
+0
+6
+6
+Transformer_SMD
+Transformer_Mini-Circuits_CD636_H4.11mm
+https://ww2.minicircuits.com/case_style/CD636.pdf
+RF Transformer
+0
+6
+6
+Transformer_SMD
+Transformer_Mini-Circuits_CD637_H5.23mm
+https://ww2.minicircuits.com/case_style/CD637.pdf
+RF Transformer
+0
+6
+6
+Transformer_SMD
+Transformer_NF_ETAL_P2781
+NF-Transformer, ETAL, P2781, SMD,
+NF-Transformer ETAL P2781 SMD 
+0
+8
+7
+Transformer_SMD
+Transformer_NF_ETAL_P2781_HandSoldering
+NF-Transformer, ETAL, P2781, SMD, Handsoldering
+NF-Transformer ETAL P2781 SMD Handsoldering 
+0
+8
+7
+Transformer_SMD
+Transformer_NF_ETAL_P3000
+NF-Reansformer, ETAL, P3000, SMD,
+NF-Reansformer ETAL P3000 SMD 
+0
+15
+13
+Transformer_SMD
+Transformer_NF_ETAL_P3000_HandSoldering
+NF-Reansformer, ETAL, P3000, SMD, Handsoldering,
+NF-Reansformer ETAL P3000 SMD Handsoldering 
+0
+15
+13
+Transformer_SMD
+Transformer_NF_ETAL_P3181
+NF-Transformer, ETAL, P3181, SMD,
+NF-Transformer ETAL P3181 SMD 
+0
+7
+6
+Transformer_SMD
+Transformer_NF_ETAL_P3181_HandSoldering
+NF-Transformer, ETAL, P3181, SMD, Hand Soldering,
+NF-Transformer ETAL P3181 SMD Hand Soldering 
+0
+7
+6
+Transformer_SMD
+Transformer_NF_ETAL_P3188
+NF-Transformer, ETAL, P3188, SMD,
+NF-Transformer ETAL P3188 SMD 
+0
+8
+6
+Transformer_SMD
+Transformer_NF_ETAL_P3188_HandSoldering
+NF-Transformer, ETAL, P3188, SMD, Handsoldering,
+NF-Transformer ETAL P3188 SMD Handsoldering 
+0
+8
+6
+Transformer_SMD
+Transformer_NF_ETAL_P3191
+NF-Transformer, ETAL, P3191, SMD,
+NF-Transformer ETAL P3191 SMD 
+0
+8
+6
+Transformer_SMD
+Transformer_NF_ETAL_P3191_HandSoldering
+NF-Transformer, ETAL, P3191, SMD, Handsoldering,
+NF-Transformer ETAL P3191 SMD Handsoldering 
+0
+8
+6
+Transformer_SMD
+Transformer_Pulse_H1100NL
+For H1100NL, H1101NL, H1102NL, H1121NL, H1183NL, H1199NL, HX1188NL, HX1198NL and H1302NL. https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/H1102NL/doc_part/H1102NL.pdf
+H1100NL H1101NL H1102NL H1121NL H1183NL H1199NL HX1188NL HX1198NL H1302N
+0
+16
+16
