@@ -6,9 +6,9 @@ It is licensed under CC-BY-SA-4.0. This allows you to use it for your own projec
 
 It is compatible with:
 
-- Prophet
-- Gambit
-- Most tray mount boards
-- Dalco 959 Mini
+- Prophet (USB)
+- Gambit (USB)
+- Most tray mount boards (USB)
+- Dalco 959 Mini (JST)
 
 There are 2 BOMs: One with a USB on the board and one that uses a JST header compatible with the Unified daughterboard project.
