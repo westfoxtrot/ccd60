@@ -430,17 +430,6 @@ Wire Wire Line
 	9275 2000 9500 2000
 Wire Wire Line
 	9500 2000 9500 1925
-$Comp
-L power:VCC #PWR0115
-U 1 1 5C1AE0EB
-P 9500 1925
-F 0 "#PWR0115" H 9500 1775 50  0001 C CNN
-F 1 "VCC" H 9517 2098 50  0000 C CNN
-F 2 "" H 9500 1925 50  0001 C CNN
-F 3 "" H 9500 1925 50  0001 C CNN
-	1    9500 1925
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9275 2100 9425 2100
 Wire Wire Line
@@ -725,7 +714,7 @@ Text GLabel 2040 5350 0    50   Input ~ 0
 COL12
 Text GLabel 2040 5650 0    50   Input ~ 0
 COL13
-Text GLabel 2040 4350 0    50   Input ~ 0
+Text GLabel 3340 4950 2    50   Input ~ 0
 ROW0
 Text GLabel 2040 4950 0    50   Input ~ 0
 ROW1
@@ -744,7 +733,7 @@ NoConn ~ 2040 4450
 NoConn ~ 2040 5850
 NoConn ~ 2040 6150
 NoConn ~ 2040 6250
-NoConn ~ 3340 4950
+NoConn ~ 2040 4350
 NoConn ~ 3340 4850
 NoConn ~ 3340 4750
 $Comp
@@ -784,6 +773,49 @@ F 1 "PRTR5V0U2X" H 8975 2241 60  0000 C CNN
 F 2 "random-keyboard-parts:SOT143B" H 8975 2050 60  0001 C CNN
 F 3 "" H 8975 2050 60  0001 C CNN
 	1    8975 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0115
+U 1 1 602458DF
+P 9500 1925
+F 0 "#PWR0115" H 9500 1775 50  0001 C CNN
+F 1 "+5V" H 9515 2098 50  0000 C CNN
+F 2 "" H 9500 1925 50  0001 C CNN
+F 3 "" H 9500 1925 50  0001 C CNN
+	1    9500 1925
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5525 1635 6850 1635
+Wire Notes Line
+	6850 1635 6850 2660
+Wire Notes Line
+	6850 2660 5525 2660
+Wire Notes Line
+	5525 2660 5525 1635
+Text Notes 5550 2635 0    50   ~ 0
+ESD Gasket
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6029B197
+P 6180 2100
+F 0 "H1" H 6280 2149 50  0000 L CNN
+F 1 "ESD Gasket" H 6280 2058 50  0000 L CNN
+F 2 "" H 6180 2100 50  0001 C CNN
+F 3 "~" H 6180 2100 50  0001 C CNN
+	1    6180 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6029B662
+P 6180 2200
+F 0 "#PWR?" H 6180 1950 50  0001 C CNN
+F 1 "GND" H 6185 2027 50  0000 C CNN
+F 2 "" H 6180 2200 50  0001 C CNN
+F 3 "" H 6180 2200 50  0001 C CNN
+	1    6180 2200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
