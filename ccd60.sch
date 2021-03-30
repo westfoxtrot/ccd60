@@ -13,48 +13,48 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1815 3650 0    50   Input ~ 0
+Text GLabel 1185 4310 0    50   Input ~ 0
 NRST
-Text GLabel 1815 3850 0    50   Input ~ 0
+Text GLabel 1185 4510 0    50   Input ~ 0
 BOOT0
 Wire Wire Line
-	1815 3850 2040 3850
+	1185 4510 1410 4510
 Wire Wire Line
-	2040 3650 1815 3650
+	1410 4310 1185 4310
 Wire Wire Line
-	2540 3350 2540 3450
+	1910 4010 1910 4110
 Wire Wire Line
-	2640 3450 2640 3350
-Connection ~ 2640 3350
+	2010 4110 2010 4010
+Connection ~ 2010 4010
 Wire Wire Line
-	2640 3350 2540 3350
+	2010 4010 1910 4010
 Wire Wire Line
-	2740 3450 2740 3350
+	2110 4110 2110 4010
 Wire Wire Line
-	2640 3350 2740 3350
+	2010 4010 2110 4010
 Wire Wire Line
-	2840 3450 2840 3350
+	2210 4110 2210 4010
 Wire Wire Line
-	2840 3350 2740 3350
-Connection ~ 2740 3350
+	2210 4010 2110 4010
+Connection ~ 2110 4010
 Wire Wire Line
-	2940 3450 2940 3350
+	2310 4110 2310 4010
 Wire Wire Line
-	2940 3350 2840 3350
-Connection ~ 2840 3350
+	2310 4010 2210 4010
+Connection ~ 2210 4010
 $Comp
 L power:+3.3V #PWR0102
 U 1 1 5C182A21
-P 2740 3250
-F 0 "#PWR0102" H 2740 3100 50  0001 C CNN
-F 1 "+3.3V" H 2755 3423 50  0000 C CNN
-F 2 "" H 2740 3250 50  0001 C CNN
-F 3 "" H 2740 3250 50  0001 C CNN
-	1    2740 3250
+P 2110 3910
+F 0 "#PWR0102" H 2110 3760 50  0001 C CNN
+F 1 "+3.3V" H 2125 4083 50  0000 C CNN
+F 2 "" H 2110 3910 50  0001 C CNN
+F 3 "" H 2110 3910 50  0001 C CNN
+	1    2110 3910
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2740 3350 2740 3250
+	2110 4010 2110 3910
 $Comp
 L power:+3.3V #PWR0103
 U 1 1 5C182E79
@@ -189,9 +189,9 @@ F 3 "" H 1825 2075 50  0001 C CNN
 	1    1825 2075
 	1    0    0    -1  
 $EndComp
-Text GLabel 3340 5850 2    50   Input ~ 0
+Text GLabel 2710 6510 2    50   Input ~ 0
 USB-
-Text GLabel 3340 5950 2    50   Input ~ 0
+Text GLabel 2710 6610 2    50   Input ~ 0
 USB+
 $Comp
 L Regulator_Linear:LD3985G33R_TSOT23 U2
@@ -491,33 +491,33 @@ LDO step down\n
 $Comp
 L power:GND #PWR0116
 U 1 1 5C1C858F
-P 2690 6725
-F 0 "#PWR0116" H 2690 6475 50  0001 C CNN
-F 1 "GND" H 2695 6552 50  0000 C CNN
-F 2 "" H 2690 6725 50  0001 C CNN
-F 3 "" H 2690 6725 50  0001 C CNN
-	1    2690 6725
+P 2060 7385
+F 0 "#PWR0116" H 2060 7135 50  0001 C CNN
+F 1 "GND" H 2065 7212 50  0000 C CNN
+F 2 "" H 2060 7385 50  0001 C CNN
+F 3 "" H 2060 7385 50  0001 C CNN
+	1    2060 7385
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2540 6450 2540 6725
+	1910 7110 1910 7385
 Wire Wire Line
-	2540 6725 2640 6725
+	1910 7385 2010 7385
 Wire Wire Line
-	2840 6725 2840 6450
+	2210 7385 2210 7110
 Wire Wire Line
-	2740 6450 2740 6725
-Connection ~ 2740 6725
+	2110 7110 2110 7385
+Connection ~ 2110 7385
 Wire Wire Line
-	2740 6725 2840 6725
+	2110 7385 2210 7385
 Wire Wire Line
-	2640 6450 2640 6725
-Connection ~ 2640 6725
-Connection ~ 2690 6725
+	2010 7110 2010 7385
+Connection ~ 2010 7385
+Connection ~ 2060 7385
 Wire Wire Line
-	2690 6725 2740 6725
+	2060 7385 2110 7385
 Wire Wire Line
-	2640 6725 2690 6725
+	2010 7385 2060 7385
 Wire Notes Line
 	5525 575  6850 575 
 Wire Notes Line
@@ -680,78 +680,72 @@ Wire Notes Line
 	8275 4625 8275 3100
 Text Notes 8300 4575 0    50   ~ 0
 Decoupling caps\n
-$Sheet
-S 5125 3525 2450 1675
-U 5C37CE86
-F0 "Matrix" 50
-F1 "prophet_matrix.sch" 50
-$EndSheet
-Text GLabel 3340 5350 2    50   Input ~ 0
+Text GLabel 2710 6010 2    50   Input ~ 0
 COL0
-Text GLabel 3340 5450 2    50   Input ~ 0
+Text GLabel 2710 6110 2    50   Input ~ 0
 COL1
-Text GLabel 2040 4750 0    50   Input ~ 0
+Text GLabel 1410 5410 0    50   Input ~ 0
 COL2
-Text GLabel 3340 5650 2    50   Input ~ 0
+Text GLabel 2710 6310 2    50   Input ~ 0
 COL3
-Text GLabel 3340 5550 2    50   Input ~ 0
+Text GLabel 2710 6210 2    50   Input ~ 0
 COL4
-Text GLabel 3340 6150 2    50   Input ~ 0
+Text GLabel 2710 6810 2    50   Input ~ 0
 COL5
-Text GLabel 3340 6250 2    50   Input ~ 0
+Text GLabel 2710 6910 2    50   Input ~ 0
 COL6
-Text GLabel 2040 5050 0    50   Input ~ 0
+Text GLabel 1410 5710 0    50   Input ~ 0
 COL7
-Text GLabel 2040 5150 0    50   Input ~ 0
+Text GLabel 1410 5810 0    50   Input ~ 0
 COL8
-Text GLabel 2040 5250 0    50   Input ~ 0
+Text GLabel 1410 5910 0    50   Input ~ 0
 COL9
-Text GLabel 2040 5550 0    50   Input ~ 0
+Text GLabel 1410 6210 0    50   Input ~ 0
 COL10
-Text GLabel 2040 5450 0    50   Input ~ 0
+Text GLabel 1410 6110 0    50   Input ~ 0
 COL11
-Text GLabel 2040 5350 0    50   Input ~ 0
+Text GLabel 1410 6010 0    50   Input ~ 0
 COL12
-Text GLabel 2040 5650 0    50   Input ~ 0
+Text GLabel 1410 6310 0    50   Input ~ 0
 COL13
-Text GLabel 3340 4950 2    50   Input ~ 0
+Text GLabel 2710 5610 2    50   Input ~ 0
 ROW0
-Text GLabel 2040 4950 0    50   Input ~ 0
+Text GLabel 1410 5610 0    50   Input ~ 0
 ROW1
-Text GLabel 2040 4850 0    50   Input ~ 0
+Text GLabel 1410 5510 0    50   Input ~ 0
 ROW2
-Text GLabel 3340 5150 2    50   Input ~ 0
+Text GLabel 2710 5810 2    50   Input ~ 0
 ROW3
-Text GLabel 3340 5050 2    50   Input ~ 0
+Text GLabel 2710 5710 2    50   Input ~ 0
 ROW4
-NoConn ~ 3340 6050
-NoConn ~ 3340 5750
-NoConn ~ 2040 5750
-NoConn ~ 3340 5250
-NoConn ~ 2040 4550
-NoConn ~ 2040 4450
-NoConn ~ 2040 5850
-NoConn ~ 2040 6150
-NoConn ~ 2040 6250
-NoConn ~ 2040 4350
-NoConn ~ 3340 4850
-NoConn ~ 3340 4750
+NoConn ~ 2710 6710
+NoConn ~ 2710 6410
+NoConn ~ 1410 6410
+NoConn ~ 2710 5910
+NoConn ~ 1410 5210
+NoConn ~ 1410 5110
+NoConn ~ 1410 6510
+NoConn ~ 1410 6810
+NoConn ~ 1410 6910
+NoConn ~ 1410 5010
+NoConn ~ 2710 5510
+NoConn ~ 2710 5410
 $Comp
 L MCU_ST_STM32F0:STM32F072CBTx U1
 U 1 1 5C45173E
-P 2740 4950
-F 0 "U1" H 2690 3364 50  0000 C CNN
-F 1 "STM32F072CBTx" H 2690 3273 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2140 3550 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 2740 4950 50  0001 C CNN
-	1    2740 4950
+P 2110 5610
+F 0 "U1" H 2060 4024 50  0000 C CNN
+F 1 "STM32F072CBTx" H 2060 3933 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1510 4210 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 2110 5610 50  0001 C CNN
+	1    2110 5610
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2040 4050
-NoConn ~ 2040 4150
-Text GLabel 2040 5950 0    50   Input ~ 0
+NoConn ~ 1410 4710
+NoConn ~ 1410 4810
+Text GLabel 1410 6610 0    50   Input ~ 0
 ESC_LED
-Text GLabel 2040 6050 0    50   Input ~ 0
+Text GLabel 1410 6710 0    50   Input ~ 0
 CAPS_LED
 $Comp
 L Transistor_BJT:BC850 Q1
@@ -818,4 +812,172 @@ F 3 "" H 6180 2200 50  0001 C CNN
 	1    6180 2200
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 3890 5200 2450 1675
+U 5C37CE86
+F0 "Matrix" 50
+F1 "ccd60_matrix.sch" 50
+$EndSheet
+$Comp
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin JST1
+U 1 1 601D748A
+P 9060 5000
+F 0 "JST1" H 9147 4822 50  0000 L CNN
+F 1 "JST-SH Header" H 9147 4913 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 9060 5000 50  0001 C CNN
+F 3 "~" H 9060 5000 50  0001 C CNN
+	1    9060 5000
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	8270 4690 10070 4690
+Wire Notes Line
+	10070 4690 10070 5800
+Wire Notes Line
+	10070 5800 8270 5800
+Wire Notes Line
+	8270 5800 8270 4690
+Text Notes 8300 5760 0    50   ~ 0
+JST Header\n
+$Comp
+L power:GND #PWR0101
+U 1 1 601F03E6
+P 9260 5440
+F 0 "#PWR0101" H 9260 5190 50  0001 C CNN
+F 1 "GND" H 9265 5267 50  0000 C CNN
+F 2 "" H 9260 5440 50  0001 C CNN
+F 3 "" H 9260 5440 50  0001 C CNN
+	1    9260 5440
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9060 5400 9260 5400
+Wire Wire Line
+	9260 5400 9260 5200
+Wire Wire Line
+	9260 5400 9260 5440
+Connection ~ 9260 5400
+Text GLabel 9260 5000 2    50   Input ~ 0
+USB-
+Text GLabel 9260 5100 2    50   Input ~ 0
+USB+
+$Comp
+L power:VCC #PWR0106
+U 1 1 601FCE78
+P 9260 4900
+F 0 "#PWR0106" H 9260 4750 50  0001 C CNN
+F 1 "VCC" H 9277 5073 50  0000 C CNN
+F 2 "" H 9260 4900 50  0001 C CNN
+F 3 "" H 9260 4900 50  0001 C CNN
+	1    9260 4900
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3300 2180 5450 2180
+Wire Notes Line
+	5450 2180 5450 3210
+Wire Notes Line
+	5450 3210 3300 3210
+Wire Notes Line
+	3300 3210 3300 2180
+Text Notes 3320 3190 0    50   ~ 0
+Mounting Holes\n
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6020E3BA
+P 3680 2470
+F 0 "H2" H 3780 2519 50  0000 L CNN
+F 1 "ScrewHole" H 3780 2428 50  0000 L CNN
+F 2 "cablecardesigns:m2-oval" H 3680 2470 50  0001 C CNN
+F 3 "~" H 3680 2470 50  0001 C CNN
+	1    3680 2470
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 6020E7C0
+P 4370 2480
+F 0 "H4" H 4470 2529 50  0000 L CNN
+F 1 "ScrewHole" H 4470 2438 50  0000 L CNN
+F 2 "cablecardesigns:m2-oval" H 4370 2480 50  0001 C CNN
+F 3 "~" H 4370 2480 50  0001 C CNN
+	1    4370 2480
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6020EC25
+P 3680 2950
+F 0 "H3" H 3480 3000 50  0000 L CNN
+F 1 "ScrewHole" H 3210 2910 50  0000 L CNN
+F 2 "cablecardesigns:m2-oval" H 3680 2950 50  0001 C CNN
+F 3 "~" H 3680 2950 50  0001 C CNN
+	1    3680 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 4370 2700
+Wire Wire Line
+	4370 2700 4370 2580
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 6020FB8E
+P 4370 2940
+F 0 "H5" H 4190 3010 50  0000 L CNN
+F 1 "ScrewHole" H 3920 2910 50  0000 L CNN
+F 2 "cablecardesigns:m2-oval" H 4370 2940 50  0001 C CNN
+F 3 "~" H 4370 2940 50  0001 C CNN
+	1    4370 2940
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4370 2700 4370 2840
+Wire Wire Line
+	3680 2850 3680 2700
+Wire Wire Line
+	3680 2700 3680 2570
+Connection ~ 3680 2700
+Wire Wire Line
+	3680 2700 4370 2700
+$Comp
+L power:GND #PWR0120
+U 1 1 602318FC
+P 3560 2700
+F 0 "#PWR0120" H 3560 2450 50  0001 C CNN
+F 1 "GND" H 3565 2527 50  0000 C CNN
+F 2 "" H 3560 2700 50  0001 C CNN
+F 3 "" H 3560 2700 50  0001 C CNN
+	1    3560 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 6026FA72
+P 4930 2480
+F 0 "H6" H 5030 2529 50  0000 L CNN
+F 1 "ScrewHole" H 5030 2438 50  0000 L CNN
+F 2 "cablecardesigns:m2-oval" H 4930 2480 50  0001 C CNN
+F 3 "~" H 4930 2480 50  0001 C CNN
+	1    4930 2480
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4370 2700 4930 2700
+Wire Wire Line
+	4930 2700 4930 2840
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 60280A27
+P 4930 2940
+F 0 "H7" H 4720 2990 50  0000 L CNN
+F 1 "ScrewHole" H 4440 2920 50  0000 L CNN
+F 2 "cablecardesigns:m2-oval" H 4930 2940 50  0001 C CNN
+F 3 "~" H 4930 2940 50  0001 C CNN
+	1    4930 2940
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4930 2700 4930 2580
+Connection ~ 4930 2700
+Wire Wire Line
+	3560 2700 3680 2700
 $EndSCHEMATC
